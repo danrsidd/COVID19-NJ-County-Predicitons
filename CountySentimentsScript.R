@@ -65,7 +65,7 @@ rownames(Sentimentscores_covid)<-NULL
 # View the head of available sentiments
 head(Sentimentscores_covid)
 
-# Plot barplot of only positive and negatiev sentiments and add count on top of each bar
+# Plot barplot of only positive and negative sentiments and add count on top of each bar
 ggplot(data=Sentimentscores_covid[9:10,],aes(x=sentiment,y=Score))+geom_bar(aes(fill=sentiment),stat = "identity")+
   theme(legend.position="none")+
   xlab("Sentiment")+ylab("Score")+ggtitle("Sentiments of Tweets on Coronavirus: [Insert County Name & Date Range Here]") + geom_text(stat='identity', aes(label=Score), vjust=-1)
