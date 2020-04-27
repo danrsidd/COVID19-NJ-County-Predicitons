@@ -1,4 +1,4 @@
-# COVID19_Tweet_Sentiments
+# COVID-19 Twitter Sentiments (NJ)
 Sentiments of coronavirus Tweets (county comparisons)
 
 Analysis and code also available at njcovidsentiments.com
