@@ -6,6 +6,7 @@ library(tm)
 library(ROAuth)
 library(ggplot2)
 
+# Set working directory
 setwd(dir=“XXXX”)
 
 # Input credentials and establish Twitter connection
